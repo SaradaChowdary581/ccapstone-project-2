@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   res.send("Server is running...");
 })
 
-app.get("/foods",async (req,res)=>{
+app.get("/Yummy",async (req,res)=>{
     res.json(data)
 })
 
